@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card Slider</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <div class="background-card">
+    
+    <div class="swiper mySwiper event-block">
+      <div class="swiper-wrapper" id="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="profile-card">
+            <figure class="profile-image-container">
+              <img
+                src="assets/img/Shikhar.jpg"
+                alt="Default"
+                class="profile-image"
+                id="main-profile-image"
+              />
+            </figure>
+            <div class="profile-details">
+              <h2 class="profile-name">SHiKHAR</h2>
+              <p class="profile-title">Frontend Engineer</p>
+              <p class="profile-bio">Transforming ideas into realities, creating interfaces that
+                inspire and engage users dreams.</p>
+              <div class="host">
+                <span class="h">Host:</span>
+                <span class="host-name">Shikhar</span>
+              </div>
+              <div class="location">
+                <img
+                  src="assets/img/location.png"
+                  alt="location-icon"
+                  class="location-icon"
+                />
+                <span class="location-name">Indian City</span>
+              </div>
+              <div class="book-now"><a href="#">Book Now</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Navigation & Pagination -->
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
